@@ -133,7 +133,6 @@ header {
 .hero {
     padding: 140px 10% 60px;
     width: 100%;
-    min-height: 80vh;
     background-color: var(--dark-green);
     display: flex;
     align-items: center;
