@@ -1,9 +1,7 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+html {
+    scroll-behavior: smooth;
 }
-html { scroll-behavior: smooth; }
+
 :root {
     --bg-cream: #FFF9EF;
     --main-green: #9DBA9D;
@@ -76,7 +74,16 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    transition: all 0.3s ease;
+    border-bottom: 2px solid #00000000;
 }
+
+#headermenu li a.active {
+    color: var(--main-green);
+    font-weight: 700;
+    border-bottom: 2px solid var(--main-green);
+}
+
 
 #headermenu li .en {
     font-size: 0.9rem;
@@ -163,6 +170,7 @@ header {
 main section {
     margin-top: 50px;
     padding-bottom: 20px;
+    scroll-margin-top: 100px;
 }
 
 main section h1 {
@@ -493,8 +501,8 @@ main section p {
 }
 
 .dev-icon {
-    width: 180px;
-    height: 180px;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
     border: 5px solid #fff;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
@@ -535,6 +543,7 @@ main section p {
     padding-left: 15px;
     margin: 30px 0 !important;
 }
+
 footer {
     background-color: var(--sub-beige);
     padding: 100px 0 40px;
@@ -554,7 +563,7 @@ footer {
 
 .cta-text {
     font-family: 'Shippori Mincho', serif;
-    font-size: 1.2rem;
+    font-size: 1.8rem;
     color: var(--dark-green);
     margin-bottom: 30px;
     letter-spacing: 0.05em;
@@ -599,7 +608,7 @@ footer {
 
 .footer-divider {
     border: none;
-    border-top: 1px solid rgba(0,0,0,0.1);
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
     margin: 20px auto;
     width: 60px;
 }
@@ -632,5 +641,4 @@ footer {
 
 .footer-bottom {
     font-size: 0.8rem;
-    opacity: 0.4;
 }
