@@ -811,6 +811,10 @@ footer {
         line-height: 1.6;
     }
 
+    .dev-name {
+        text-align: center;
+    }
+
     .dev-message p {
         font-size: 0.9rem;
         line-height: 1.7;
