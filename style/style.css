@@ -501,8 +501,8 @@ main section p {
 }
 
 .dev-icon {
-    width: 250px;
-    height: 250px;
+    width: 100%;
+    height: auto;
     border-radius: 50%;
     border: 5px solid #fff;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
