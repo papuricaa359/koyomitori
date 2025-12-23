@@ -1,0 +1,4 @@
+plugins:
+  - jekyll-seo-tag
+plugins:
+　- jekyll-sitemap
